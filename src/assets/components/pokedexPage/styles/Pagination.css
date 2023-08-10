@@ -1,0 +1,31 @@
+.pagination{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.pagination-previous,
+.pagination-next{
+    max-width: 50px;
+    border: none;
+    background-color: transparent;
+    color: #DD1A1A;
+}
+
+.bx-right-arrow-alt,
+.bx-left-arrow-alt{
+    font-size: 3rem;
+}
+
+.pagination-link{
+    border-color: #DD1A1A;
+    background-color: #DD1A1A;
+    color: white;
+}
+
+.pagination-link.is-current{
+    background: black;
+    color: white;
+    border-color: rgb(255, 0, 0);
+}

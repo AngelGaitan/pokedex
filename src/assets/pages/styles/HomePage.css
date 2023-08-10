@@ -1,0 +1,70 @@
+.homepage{
+   text-align: center;
+}
+
+.homepage_img{
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 1em;
+}
+
+.homepage_greeting{
+    margin-top: 1em;
+    color: red;
+    font-size: 2rem;
+}
+
+
+.homepage_parr{
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+
+.homepage_form{
+margin: 1.5em;
+}
+
+.homepage_input{
+    width: 100%;
+    max-width: 400px;
+    padding: .5em;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.homepage_btn{
+padding: .5em;
+background-color: red;
+color: white;
+border-radius: 0 5px 5px 0;
+}
+
+.homepage_footer{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.homepage_footer_red{
+    width: 100%;
+    height: 80px;
+    background-color: red;
+}
+
+.homepage_footer_black{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.homepage_img_bolita{
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
